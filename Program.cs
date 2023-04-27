@@ -60,6 +60,22 @@ double result = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 -y1), 2) + Math.
 System.Console.WriteLine($"{Math.Round(result, 2)} ");
 
 
+// Задача 23
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу 
+// кубов чисел от 1 до N.
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+
+Console.Write("Введите число N: ");
+double x = Convert.ToDouble(Console.ReadLine());
+double i = 1;
+
+ while(i <= x)
+ {Console.Write($"{Math.Pow(i, 3)}, ");
+ i++;
+ }
+
 
 
 
